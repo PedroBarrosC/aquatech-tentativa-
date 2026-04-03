@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a0a0a;
+}
+
+/* CONTAINER PADRÃO */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #000;
+    border-bottom: 2px solid #00d4ff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.titulo {
+    color: #00d4ff;
+    font-size: 24px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+.navbar li {
+    color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .agora a {
+    color: #f1c40f;
+}
+
+/* LOGIN / CARD */
+.login {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url('../assets/imgs/bg-jelly-fish-para-home.png') no-repeat center;
+    background-size: cover;
+}
+
+.card {
+    background-color: #eaeaea;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.campo span {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BOTÃO */
+.botao {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00d4ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #00bcd4;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #3bb4c1;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .version {
+    font-size: 12px;
+}
+
+
+/* CARD */
+
+
+.card {
+    background-color: #d9d9d9;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+/* TÍTULO */
+.card h2 {
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* CAMPOS */
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.campo span {
+    color: #e91e63;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* INPUTS */
+.campo input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #00d4ff;
+    outline: none;
+}
+
+/* BOTÃO */
+.botao {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e91e63;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    align-self: center;
+}
+
+.botao:hover {
+    background-color: #d81b60;
+}
+
+/* login 
+
+/* FUNDO */
+.login {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../assets/imgs/bg-jelly-fish-para-home.png') no-repeat center;
+    background-size: cover;
+}
+
+/* CARD LOGIN (diferente do cadastro) */
+.card-login {
+    background-color: #d9d9d9;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+/* TÍTULO */
+.card-login h2 {
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+/* CAMPOS */
+.card-login .campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.card-login .campo span {
+    color: #e91e63;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* INPUTS */
+.card-login input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #00d4ff;
+    outline: none;
+    background-color: transparent;
+}
+
+/* BOTÃO */
+.card-login .botao {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e91e63;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-login .botao:hover {
+    background-color: #d81b60;
+}
+
+/* index
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTAINER */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #000;
+    border-bottom: 2px solid #00d4ff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.titulo {
+    color: #00d4ff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .agora a {
+    color: #f1c40f;
+}
+
+/* BANNER */
+.banner {
+    height: 400px;
+    background: url('../assets/imgs/bg-jelly-fish-para-home.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner p {
+    color: white;
+    font-size: 28px;
+    width: 300px;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+/* CONTEÚDO */
+.social {
+    background-color: #e5e5e5;
+    padding: 40px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box {
+    width: 30%;
+}
+
+.box img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.box h4 {
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #3bb4c1;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.footer .version {
+    font-size: 12px;
+}
+
+.banner {
+    height: 450px;
+}
+
+.banner p {
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.social {
+    padding: 60px 0;
+}
+
+.boxes {
+    gap: 40px;
+}
+
+.box {
+    width: 30%;
+    padding: 10px;
+}
+
+.box img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.box h4 {
+    margin: 10px 0;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
